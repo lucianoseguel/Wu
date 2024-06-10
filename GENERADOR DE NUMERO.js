@@ -104,9 +104,8 @@ function reload(){ //Recargar la pagina con boton refresh
 let ntelefono = '11' + number_generator(telefono, 8);
 let direccion = adress_generator(telefono, direcciones);
 
+document.write(`Direccion nueva generada:  ${direccion}    <button onclick="copynumber(direccion)">Copiar direccion</button> <br> <br> `);
+
 document.write(`Numero de telefono generado: ${ntelefono}    <button onclick="copynumber(ntelefono)">Copiar numero</button> <br>  <br>`); 
-
-
-document.write(`Direccion nueva generada:  ${direccion}    <button onclick="copynumber(direccion)">Copiar direccion</button> `);
 
 
