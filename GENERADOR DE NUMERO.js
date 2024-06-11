@@ -4,10 +4,10 @@
 //variables principales
 
 let telefono = "1234567890";
-let direcciones = [ "San Martín",
+let direcciones = [ "San Martin",
 "Las Heras",
 "Godoy Cruz",
-"Arístides Villanueva",
+"Aristides Villanueva",
 "Belgrano",
 "Patricias Mendocinas",
 "Colon",
