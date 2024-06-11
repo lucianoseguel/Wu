@@ -14,4 +14,4 @@ function reload(){ //Recargar la pagina con boton refresh
 
 
 
-const intervalo = setInterval(reload,1000)
+setInterval(reload,1000)

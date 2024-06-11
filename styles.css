@@ -13,14 +13,18 @@
     font-family: "Poppins", sans-serif;
 }
 
+html,body{
+    margin: 0;
+}
 
 
 h1{
     display: block;
     text-align: center;
     padding: 2vh;
-    margin: -2vh -2em 0 -2em;
+    margin: 0;
     background-color: var(--nav--);
+    
 
 }
 
