@@ -9,34 +9,37 @@
 </head>
 <body>
     <main>
-        <h1>WESTERN UNION Alem 39</h1>
+        <nav>
+            <img src="images/Logo.png" alt="Main icon" id="icono">
+            <h1>WESTERN UNION | Alem 39</h1>
+        </nav>
 
         <hr>
-        <h3>Generador de direcciones y números</h3>
+        <h3>Nuevas direcciones y números</h3>
         
-        <script src="GENERADOR DE NUMERO.js"></script> <!--Espacio--->  
-
-       
-
-        <br>
-        
-        <br>
+            <script src="GENERADOR DE NUMERO.js"></script> <!--Espacio--->  
+            <br>
+            <br>
         <hr>
+
         <h3>Calculadora de Envíos</h3>
 
         <div id="calculadora"> <!--Calculadora de envios-->
-        <input type="number" id="inputNumero" placeholder="Numero a calcular"> <!--Lo que se obtiene del usuario-->
-        <p id="resultado"><!--Este es el resultado que va a ser escrito en js--> </p>
-        
-
+            <input type="number" id="inputNumero" placeholder="Numero a calcular"> <!--Lo que se obtiene del usuario-->
+            <p id="resultado"><!--Este es el resultado que va a ser escrito en js--> </p>
         </div>
         <br>
         <br>
-        <button onclick="reload()" id="gerarnuevo">Generar nuevo</button>
+            <script src="Scripts/calculadora de envios.js"></script>
+        <hr>
+        <br>
+        <a href="cambio/cambio.html" target="_blank"><h3 id="cambio">CAMBIO DE DIVISAS</h3></a>
 
-        <script src="Scripts/reseter.js"></script> <!--Reseteador de pagina para casilla nueva-->
+
+        
     </main>
-    <script src="Scripts/calculadora de envios.js"></script>
+        <!---SCRIPTS AUTOEJECUTABLES----->
+        <script src="Scripts/reseter.js"></script> <!--Reseteador de pagina para casilla nueva-->
 </body>
 
 </html>

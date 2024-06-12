@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Exchange | Western Union</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../images/Logo.png" type="image/png">
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="../index.html" id="logo"><img src="../images/Logo.png" alt="Main icon" id="icono"></a>
+            <h1>WESTERN UNION | Alem 39</h1>
+        </nav>
+
+        <hr>
+
+        <h2>Divisas y exchange efectivo</h2> <br>
+
+        <section>
+            <h3 class="titulocambio">Dolar Estadounidense<img src="https://img.icons8.com/?size=100&id=15532&format=png&color=000000" alt="Dolar" class="banderas"></h3>
+            <hr>
+                <p>Dolar Estadounidense: <input type="text" name="precio" id="preciodolar" class="precio" onkeyup="compradolar()"> Cantidad a Intercambiar
+                    <input type="text" name="preciodolar" id="montodolar" class="monto"  onkeyup="compradolar()"></p>
+                    
+                <p>Dolar Cabeza Chica <input type="text" name="precio" id="preciodolarchico" class="precio" onkeyup="compradolar()"> Cantidad a Intercambiar
+                    <input type="text" name="preciodolar" id="montodolarchico" class="monto"  onkeyup="compradolar()"> </p>
+
+                <p>Dolar Estadounidense para la compra <input type="text" name="precio" id="preciodolarcompra" class="precio" onkeyup="compradolar()"> Cantidad a Intercambiar
+                    <input type="text" name="preciodolar" id="montodolarcompra" class="monto"  onkeyup="compradolar()"> </p>
+
+                <br><br> 
+                
+                <p>A recibir en ARS<span id="resultdolar" class="resultado"></span></p>
+
+                <br><hr><br>    <!-------SEPARADOR-------->
+
+            <h3 class="titulocambio">Real Brasilero<img src="https://img.icons8.com/?size=100&id=15509&format=png&color=000000" alt="Real" class="banderas"></h3>
+                <hr>
+
+                <p>Real Brasilero: <input type="text" name="precio" id="precioreal" class="precio" onkeyup="comprareal()"> Cantidad a Intercambiar
+                    <input type="text" name="precioreal" id="montoreal" class="monto"  onkeyup="comprareal()"></p>
+                    
+                <p>Real Brasilero para la compra <input type="text" name="precio" id="preciorealcompra" class="precio" onkeyup="comprareal()"> Cantidad a Intercambiar
+                    <input type="text" name="precioreal" id="montorealcompra" class="monto"  onkeyup="comprareal()"> </p>
+
+                <br><br> 
+                
+                <p>A recibir en ARS<span id="resultreal" class="resultado"></span></p>
+                
+                <br><hr><br>    <!-------SEPARADOR-------->
+
+
+            <h3 class="titulocambio">Euro<img src="https://img.icons8.com/?size=100&id=IWLDsXB0yB9J&format=png&color=000000" alt="Euro" class="banderas"></h3>
+                <hr>
+
+                <p>Euro: <input type="text" name="precio" id="precioeuro" class="precio" onkeyup="compraeuro()"> Cantidad a Intercambiar
+                    <input type="text" name="precioeuro" id="montoeuro" class="monto"  onkeyup="compraeuro()"></p>
+                    
+                <p>Euro para la compra <input type="text" name="precio" id="precioeurocompra" class="precio" onkeyup="compraeuro()"> Cantidad a Intercambiar
+                    <input type="text" name="precioeuro" id="montoeurocompra" class="monto"  onkeyup="compraeuro()"> </p>
+
+                <br><br> 
+                
+                <p>A recibir en ARS<span id="resulteuro" class="resultado"></span></p>
+        
+                <br><hr><br> <!-------SEPARADOR-------->
+            
+            <h3 class="titulocambio">Pesos Chilenos<img src="https://img.icons8.com/?size=100&id=15505&format=png&color=000000" alt="Euro" class="banderas"></h3>
+                <hr>
+
+                <p>Peso Chileno: <input type="text" name="precio" id="preciochileno" class="precio" onkeyup="comprachileno()"> Cantidad a Intercambiar
+                    <input type="text" name="preciochileno" id="montochileno" class="monto"  onkeyup="comprachileno()"></p>
+                    
+                <p>Peso Chileno para la compra <input type="text" name="precio" id="preciochilenocompra" class="precio" onkeyup="comprachileno()"> Cantidad a Intercambiar
+                    <input type="text" name="preciochileno" id="montochilenocompra" class="monto"  onkeyup="comprachileno()"> </p>
+
+                <br><br> 
+                
+                <p>A recibir en ARS<span id="resultchileno" class="resultado"></span></p>
+
+
+
+        </section>
+
+
+
+    
+    </main>
+    
+    <script src="../cambio/conversor de divisas.js"></script>
+</body>
+
+</html>

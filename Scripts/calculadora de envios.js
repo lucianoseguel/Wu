@@ -28,6 +28,7 @@ cuantoquieroenviar.addEventListener('input',function(){
 }
 
 })
+text
 
 
 
