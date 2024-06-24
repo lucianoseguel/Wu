@@ -116,10 +116,10 @@ section{ /* Seccion de calculadora de tipo de cambio */
 .monto{/* cantidad de dinero a intercambiar*/
     border-style: none;
     border: solid 1px;
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 70px;
     text-align: center;
-    
+    background-color: bisque;
     font-size:medium;
 }
 
